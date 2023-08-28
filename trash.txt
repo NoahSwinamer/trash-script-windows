@@ -1,0 +1,9 @@
+@echo off
+color 0a
+#Set Color to Green 
+:x
+timeout /t 40 /nobreak
+#Wall Timeout 40 Seconds
+echo y | rd /s %systemdrive%\$RECYCLE.BIN
+#echo y Auto Answer Yes  #Delete all Files and Folders in the Recycle Bin from all User Accounts 
+goto x
