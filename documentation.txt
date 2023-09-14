@@ -1,4 +1,13 @@
 @echo off
+et LOGFILE=batch.log
+call :LOG > %LOGFILE%
+#Make the batch.log Flie 
+exit /B
+
+:LOG
+   SYSTEMINFO
+:LOG
+# SYSTEMINFO loging system info OS Version and Processor and System Type
 color 0a
 #Set Color to Green 
 :x
