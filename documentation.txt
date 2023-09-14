@@ -7,7 +7,7 @@ exit /B
 :LOG
    SYSTEMINFO
 :LOG
-# SYSTEMINFO loging system info OS Version and Processor and System Type
+# SYSTEMINFO loging system info OS Version and Processor and System Type and more
 color 0a
 #Set Color to Green 
 :x
